@@ -2,6 +2,8 @@
 
 After ***React*** was installed, it was created so that developers would not do anything annoying and unpleasant, such as adding ***typescript*** files, creating folders, declaring types for images, and creating ***stylesheet*** files.
 
+***Links: [npm](https://www.npmjs.com/package/create-oniec-app), [github](https://github.com/ICe1BotMaker/oniec)***
+
 ### 💬 Differences from traditional *React* installations
 
 - All unnecessary files are installed deleted.
@@ -71,4 +73,4 @@ $ npm run dev
 
 ### Release
 
-[x] [npm ver 1.0.0](#)
+- [x] version 1.\*.*

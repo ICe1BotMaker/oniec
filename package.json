@@ -1,6 +1,6 @@
 {
     "name": "create-oniec-app",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "After React was installed, it was created so that developers would not do anything annoying and unpleasant, such as adding typescript files, creating folders, declaring types for images, and creating stylesheet files.",
     "main": "index.js",
     "scripts": {
