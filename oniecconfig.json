@@ -1,0 +1,19 @@
+{
+    "typescript": true,
+    "default": true,
+    "name": {
+        "components": "components",
+        "hooks": "hooks",
+        "imgs": "images",
+        "pages": "pages",
+        "styles": "styles"
+    },
+    "structure": {
+        "components": {},
+        "hooks": {},
+        "pages": {},
+        "styles": {
+            "imgs": {}
+        }
+    }
+}

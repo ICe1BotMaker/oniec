@@ -17,9 +17,20 @@ After ***React*** was installed, it was created so that developers would not do 
 
 The ***create-oniec-app*** library uses the `exec` function of the library called ***child_process***. When a function is used, problems such as deleting or modifying existing files can occur.
 
-### 📌 How to install
+### 📌 Installation
 
 Read [***precautions***](#💬-precautions-for-use) before installing!
+
+#### ✅ How to modify the file ***oneiecconfig.json***
+
+- Locate ***oneiecconfig.json*** in the path where this module is installed.
+- Open the file in the editor and modify the desired part.
+
+##### 💾 To modify
+
+- ***typescript***: typescript enable
+- ***name***: Desired directory name
+- ***structure***: Desired directory structure
 
 Run from the shell of the operating system:
 
@@ -41,35 +52,9 @@ $ npm run dev
 
 ### 📂 Directory structure
 
-⛔ ***Warning***: The structure below may differ from the one installed.
+Everything changed from version 1.1.0
 
-```
-─ node_modules
-─ public
-─ src
-    └> components
-    └> fonts
-    └> hooks
-    └> imgs
-    └> pages
-        └> Home.tsx
-        └> Error.tsx
-        
-    └> styles
-        └> global.css
-
-    └> App.tsx
-    └> index.js
-    └> reportWebVitals.js
-    └> setupTests.js
-
-- .gitignore
-- index.d.ts
-- package-lock.json
-- package.json
-- README.md
-- tsconfig.json
-```
+- You can modify `oniecconfig.json` to change the directory structure as you want, or set the directory name, ***typescript***, or not.
 
 ### Release
 

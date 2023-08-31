@@ -1,6 +1,6 @@
 {
     "name": "create-oniec-app",
-    "version": "1.0.2",
+    "version": "1.1.0",
     "description": "After React was installed, it was created so that developers would not do anything annoying and unpleasant, such as adding typescript files, creating folders, declaring types for images, and creating stylesheet files.",
     "main": "index.js",
     "scripts": {
@@ -11,7 +11,9 @@
     "dependencies": {
         "chalk": "^4.1.2",
         "child_process": "^1.0.2",
-        "fs": "^0.0.1-security"
+        "fs": "^0.0.1-security",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.2.2"
     },
     "bin": {
         "create-oniec-app": "./bin/oniec.js"
